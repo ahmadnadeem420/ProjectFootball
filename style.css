@@ -1,0 +1,122 @@
+body{
+    position:relative;
+    height:80vh;
+    @media screen and (max-width: 360px) {
+    }
+    @media screen and (max-height: 740px) {
+    }
+    background-image:url(001.jpg)
+    
+}
+
+.team1{
+    position:absolute;
+    bottom:55vh ;
+    left:2vh;
+    padding:10px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #7dce94;;
+    border-color: #608074;
+    font-style:italic;
+}
+.team2{
+    position:absolute;
+    bottom:55vh ;
+    left:31vh;
+    padding :10px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:#7dce94; 
+    border-color: #608074;;
+    font-style:italic;
+}
+.heading{
+   
+    position:absolute ;
+    background-color:#6667AB;
+    padding: 10px;
+    margin-left: 11vh;
+    text-align: center;
+    border-radius: 6px;
+    top:vh;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+
+#team{
+    position: absolute;
+    font-size: 54px;
+    top:27vh;
+    left: 6vh;
+    background-color: #657a00;
+    padding: 0px 25px;
+    border-radius: 12px;
+}
+
+#team22{
+    position: absolute;
+    font-size: 54px;
+    top: 27vh;
+    left:30vh;
+    background-color:  #657a00;
+   padding: 0 25px;
+   border-radius: 12px;
+   
+}
+
+#goal1{
+    position : absolute;
+    top:60vh;
+    left:3vh;
+    background-color: #beef00;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border:#5dbb2a;
+}
+
+#goal2{
+    position : absolute;
+    top:60vh;
+    left:33vh;
+    background-color: #beef00;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border:#5dbb2a;
+}
+#munna{
+    position: absolute;
+    top:83vh;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: #a0d2eb;
+    border-color: aquamarine;
+    padding:2px;
+    border-radius: 8px;
+}
+#foal{
+    position: absolute;
+    top:75vh;
+    left:18vh;
+    padding:15px 25px;
+    background-color:  #ff0028;
+    border:#6667AB;
+    border-radius: 9px;
+    font-style: italic;
+}
+
+.goal1:active{
+    opacity: 30% ;
+    transition:  0.5s;
+}
+.goal2:active{
+    opacity: 30% ;
+    transition:  0.5s;
+}
